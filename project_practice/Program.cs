@@ -10,6 +10,7 @@ namespace project_practice
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hi i am faraz");
 
         }
     }
