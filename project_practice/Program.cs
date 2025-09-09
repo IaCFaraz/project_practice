@@ -10,7 +10,8 @@ namespace project_practice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hi i am faraz");
+            SI obj = new SI();
+            obj .CalcSI(); 
 
         }
     }
