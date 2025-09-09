@@ -10,8 +10,9 @@ namespace project_practice
     {
         static void Main(string[] args)
         {
-            SI obj = new SI();
-            obj .CalcSI(); 
+            BoxingExample boxingExample = new BoxingExample();
+            boxingExample.Boxingfun();
+            boxingExample.UnBoxingfun2();
 
         }
     }
