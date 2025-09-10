@@ -10,9 +10,11 @@ namespace project_practice
     {
         static void Main(string[] args)
         {
-            BoxingExample boxingExample = new BoxingExample();
-            boxingExample.Boxingfun();
-            boxingExample.UnBoxingfun2();
+            Datatype obj  = new Datatype ();
+            obj.DDatatypeFun();
+            obj.DDatatypeFun();    
+
+        
 
         }
     }
