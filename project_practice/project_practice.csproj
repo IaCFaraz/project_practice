@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>project_practice.OperatorDemo</StartupObject>
+    <StartupObject>project_practice.Check</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BoxingExample.cs" />
+    <Compile Include="Check.cs" />
     <Compile Include="Datatype.cs" />
     <Compile Include="DateDiff.cs" />
     <Compile Include="operatorDemo.cs" />
