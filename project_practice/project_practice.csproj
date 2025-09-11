@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>project_practice.Check</StartupObject>
+    <StartupObject>project_practice.MarksSheetExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="Check.cs" />
     <Compile Include="Datatype.cs" />
     <Compile Include="DateDiff.cs" />
+    <Compile Include="MarksSheetExample.cs" />
     <Compile Include="operatorDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
