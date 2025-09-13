@@ -10,18 +10,15 @@ namespace project_practice
     {
         static void Main(string[] args)
         {
-            char ch = 'F';
-            switch (ch)
+            int a = 1, b = 2;   
+            switch (a>b)
             {
-                case 'a':
-                case 'e':
-                case 'i':
-                case 'o':
-                case 'u':
-                    Console.WriteLine("vowel");
+                case true:
+              
+                    Console.WriteLine("a is greates");
                     break;
                     default :
-                    Console.WriteLine("faraz");
+                    Console.WriteLine("b is greates");
                     break;  
 
 
