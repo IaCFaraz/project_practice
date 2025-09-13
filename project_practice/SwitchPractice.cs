@@ -10,19 +10,39 @@ namespace project_practice
     {
         static void Main(string[] args)
         {
-            int num = 5;
-            switch (num % 2)
+            char ch = 'F';
+            switch (ch)
             {
-                case 0 :
-                    Console.WriteLine("Even");
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    Console.WriteLine("vowel");
                     break;
-                default:
-                    Console.WriteLine("add");
-                    break;
+                    default :
+                    Console.WriteLine("faraz");
+                    break;  
+
+
 
             }
 
         }
+        //{
+        //    int num = 5;
+        //    switch (num % 2)
+        //    {
+        //        case 0 :
+        //            Console.WriteLine("Even");
+        //            break;
+        //        default:
+        //            Console.WriteLine("add");
+        //            break;
+
+        //    }
+
+        //}
 
     }
 }
