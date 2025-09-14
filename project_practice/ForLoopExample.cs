@@ -11,7 +11,7 @@ namespace project_practice
     {
         static void Main(string[] args)    
         {
-            int num = 10;
+            int num = 100;
             int r = 1;
             for (int step = num; step > 1; step--)
             {
