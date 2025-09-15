@@ -9,23 +9,33 @@ namespace project_practice
 {
     internal class ForLoopExample
     {
-        static void Main(string[] args)    
+
+        static void Main(string[] args)
         {
-            int num = 100;
-            int r = 1;
-            for (int step = num; step > 1; step--)
+            for (int i = 1; i <= 5; i++)
             {
-                r = r * step;
-            }
-            Console.WriteLine("fatorail is " +r);
+                // Inner loop: columns
+                for (int j = 1; j <= 5; j++)
+                {
+                    Console.Write(i * j + "\t");  // Print product
+                }
+                Console.WriteLine();  // Move to next line after each row
+
+                //int num = 100;
+                //int r = 1;
+                //for (int step = num; step > 1; step--)
+                //{
+                //    r = r * step;
+                //}
+                //Console.WriteLine("fatorail is " +r);
 
 
-            // calculate the Table
-            //int num = 12;
-            //for(int step =1; step <=10; step++)
-            //{
-            //    Console.WriteLine(num * step);
-            //}
+                // calculate the Table
+                //int num = 12;
+                //for(int step =1; step <=10; step++)
+                //{
+                //    Console.WriteLine(num * step);
+                //}
 
                 // simple for loop 
                 //Console.WriteLine("For Loop step Increment");
@@ -41,6 +51,7 @@ namespace project_practice
 
 
 
+            }
         }
     }
 }
